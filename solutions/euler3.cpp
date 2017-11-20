@@ -1,6 +1,6 @@
 #include <cmath>
 
-int solution () {
+int euler3 () {
 	long largeNumber = 600851475143;
 	for (int i = 2; i <= sqrt(largeNumber); i += 2)
     {
