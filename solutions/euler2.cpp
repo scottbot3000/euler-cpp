@@ -1,4 +1,4 @@
-int solution () {
+int euler2 () {
 	int maxTerm = 4000000;
 	int t1 = 1, t2 = 2;
 	int sum = 0;
