@@ -5,7 +5,10 @@ int euler5 () {
         i += 20;
         found = true;
         for (int divisor = 19; divisor > 1; --divisor) {
-            if (i % divisor != 0) found = false;
+            if (i % divisor != 0) {
+                found = false;
+                break;
+            }
         }
     } while (!found);
     return i;
