@@ -4,7 +4,7 @@ int euler5 () {
     do {
         i += 20;
         found = true;
-        for (int divisor = 19; divisor > 1; --divisor) {
+        for (int divisor = 19; divisor >= 11; --divisor) {
             if (i % divisor != 0) {
                 found = false;
                 break;
